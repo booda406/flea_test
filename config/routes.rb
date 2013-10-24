@@ -1,10 +1,13 @@
 FleaTest::Application.routes.draw do
+  resources :products
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
-
+  root 'products#sell_index'
+  get 'share_count' => 'products#sell_count'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
