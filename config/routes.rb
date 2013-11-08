@@ -8,6 +8,20 @@ FleaTest::Application.routes.draw do
   # root 'welcome#index'
   root 'products#sell_index'
   get 'share_count' => 'products#sell_count'
+  # 會有連結連到share
+
+  get 'sell_01' => 'products#sell_01'
+  # 測試商品頁1號，需有連結連到share_count跟share
+
+  get 'sell_02' => 'products#sell_02'
+  # 測試商品頁2號，需有連結連到share_count跟share
+
+  get 'sell_03' => 'products#sell_03'
+  # 測試商品頁3號，需有連結連到share_count跟share
+
+  get 'share' => 'products#share'
+  # 純html頁面
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
