@@ -222,3 +222,10 @@ html{
 .row_icon{
   margin: 0px 20px 30px 0px;
 }
+
+.p_width{
+  margin:0 auto;
+  width: auto;
+  padding: 0 40px 0 40px;
+  text-align: center;
+}
