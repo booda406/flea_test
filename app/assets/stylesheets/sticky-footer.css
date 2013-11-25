@@ -82,7 +82,8 @@ body {
   padding: 10px;
   font-size: 15pt;
   text-align: center;
-  background-color: rgba(133,207,232,1);
+  /*background-color: rgba(133,207,232,1);*/
+  background-color: rgba(229,229,229,1);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -96,7 +97,8 @@ body {
   padding: 10px;
   font-size: 15pt;
   text-align: center;
-  background-color: rgba(147,214,135,1);
+  /*background-color: rgba(147,214,135,1);*/
+  background-color: rgba(229,229,229,1);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
