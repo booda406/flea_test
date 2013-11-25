@@ -10,16 +10,24 @@
     <title>Sticky Footer Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../../dist/css/bootstrap.css" rel="stylesheet">
+    <!-- <link href="../../dist/css/bootstrap.css" rel="stylesheet"> -->
 
     <!-- Custom styles for this template -->
-    <link href="sticky-footer.css" rel="stylesheet">
+    <!-- <link href="sticky-footer.css" rel="stylesheet"> -->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider({
+      animation: "slide",
+      controlsContainer: ".flex-container"    
+    });
+  });
+</script>
   </head>
 
   <body>
@@ -76,7 +84,22 @@
             </p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <img src="assets/suit_01.jpg" class="sell_image">
+            <div class="flexslider">
+             <ul class="slides">
+              <li>
+                <img src="assets/suit_01.jpg">
+              </li>
+              <li>
+                <img src="assets/suit_02.jpg">
+              </li>
+              <li>
+                <img src="assets/suit_03.jpg">
+              </li>
+              <li>
+                <img src="assets/suit_04.jpg">
+              </li>
+             </ul> 
+            </div>
           </div>
         </div>
       </div>
