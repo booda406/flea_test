@@ -45,31 +45,106 @@ body {
 /*sell01*/
 
 
-.function{
-  width: 60px;
-  height: 60px;
-  margin: 10px;
-  padding: 15px;
+/*.function1 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  
+  .fun1{
+    background-color: rgba(255,146,146,1);
+  }
+}*/
+
+.function1 {
+  /*display: block;*/
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15pt;
+  text-align: center;
   background-color: rgba(255,146,146,1);
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
 
-
-.sell {
-  margin-top: 25px;
-
+.function2 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15pt;
+  text-align: center;
+  background-color: rgba(133,207,232,1);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
+
+.function3 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15pt;
+  text-align: center;
+  background-color: rgba(147,214,135,1);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+.function4 {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15pt;
+  text-align: center;
+  /*background-color: rgba(255,203,141,1);*/
+  background-color: rgba(229,229,229,1);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+
+
+/*.fun1{
+    background-color: rgba(255,146,146,1);
+}
+.fun2{
+background-color: rgba(133,207,232,1);
+}
+.fun3{
+  background-color: rgba(147,214,135,1);
+  }
+.fun4{
+  background-color: rgba(255,203,141,1);
+}
+*/
+
 
 .sell_image {
   margin-left: 30px;
   width: 300px;
-  height: auto;
-
 }
 
 .sell_text {
-  font-size: 14px
-
+  font-size: 18px;
+  margin-top: 10px;
 }
+
+.sell_text .bold{
+  font-weight: bold;
+}
+
+
