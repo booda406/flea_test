@@ -10,7 +10,7 @@ FleaTest::Application.routes.draw do
   get 'share_count' => 'products#sell_count'
   # 會有連結連到share
 
-  get 'sell_01' => 'products#sell_01'
+  get 'sell_01' => 'products#sell01'
   # 測試商品頁1號，需有連結連到share_count跟share
 
   get 'sell_02' => 'products#sell_02'
@@ -20,6 +20,7 @@ FleaTest::Application.routes.draw do
   # 測試商品頁3號，需有連結連到share_count跟share
 
   get 'share' => 'products#share'
+
   # 純html頁面
 
   # Example of regular route:
