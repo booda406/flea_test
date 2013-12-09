@@ -23,6 +23,7 @@ FleaTest::Application.routes.draw do
 
   get 'coffee-machine' => 'products#sell02'
 
+  get 'coming-soon' => 'products#coming_soon'
   # 純html頁面
 
   # Example of regular route:
