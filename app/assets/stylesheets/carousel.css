@@ -225,13 +225,10 @@ html{
 .p_width{
   margin:0 auto;
   width: auto;
-<<<<<<< HEAD
   /*padding: 0 10px 0 10px;*/
   text-align: justify;
-=======
   padding: 0 40px 0 40px;
-  text-align: center;
->>>>>>> cf32f47f0aa44d8f7cdc7149546f398fca792396
+  /*text-align: center;*/
 }
 
 
