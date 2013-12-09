@@ -21,6 +21,8 @@ FleaTest::Application.routes.draw do
 
   get 'share' => 'products#share'
 
+  get 'coffee-machine' => 'products#sell02'
+
   # 純html頁面
 
   # Example of regular route:
