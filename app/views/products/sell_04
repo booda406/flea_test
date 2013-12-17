@@ -46,7 +46,7 @@
                 <h4>二手雲</h4>
               </div>
             <div class="col-xs-5 col-sm-2 col-md-2">
-              <p><a href="http://secondcloud.herokuapp.com/coming-soon" class="btn btn-primary btn_margin_adjust" role="button">張貼我的商品</a></p>
+              <p><a class="btn btn-primary btn_margin_adjust" role="button">張貼我的商品</a></p>
             </div>
           </div>
 
@@ -74,22 +74,27 @@
 
         <div class="row">
           <div class="col-xs-12 col-md-12">
-            <p class="sell_text"><span class="bold">雀巢咖啡DOLCE GUSTO膠囊咖啡機New Melody-星夜紅</span><p>
-            <p class="sell_text"><span class="bold">商品價格：</span>5000元<br>
-            <span class="bold">商品狀況：</span>全新<br>
+            <p class="sell_text"><span class="bold">MIRYOKU 多夾層皮夾-咖啡</span><p>
+            <p class="sell_text"><span class="bold">商品價格：</span>400元<br>
+            <span class="bold">商品狀況：</span>7成新<br>
             <span class="bold">其他資訊：</span><br>
-            這是抽獎抽到的，感覺膠囊咖啡滿方便的，但自己一個人住外面沒地方放，所以想要賣出。<br>在此放上<a href="https://www.dolce-gusto.com.tw/ZH/machines/Melody-Automatic/Pages/Melody3.aspx">官網介紹</a>，官網售價為6599，就賣5000就好，意者再私訊跟我聯絡吧！
-
+            MIRYOKU的皮夾，外層為防潑水的材質，而且夾層超多超實用，可放置一堆證件卡片，有兩層放鈔票的夾層，又有零錢收納包，真的很方便耐用喔！
             </p>
           </div>
           <div class="col-xs-12 col-md-12">
             <div class="flexslider">
              <ul class="slides">
               <li>
-                <img src="assets/sell02_coffee1.jpg">
+                <img src="assets/wallet_01.jpg">
               </li>
               <li>
-                <img src="assets/sell02_coffee2.jpg">
+                <img src="assets/wallet_02.jpg">
+              </li>
+              <li>
+                <img src="assets/wallet_03.jpg">
+              </li>
+              <li>
+                <img src="assets/wallet_04.jpg">
               </li>
             
              </ul> 

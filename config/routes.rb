@@ -23,6 +23,8 @@ FleaTest::Application.routes.draw do
 
   get 'coffee-machine' => 'products#sell02'
 
+  get 'wallet' => 'products#sell_04'
+
   get 'coming-soon' => 'products#coming_soon'
   # 純html頁面
 
