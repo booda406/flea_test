@@ -74,6 +74,10 @@ def sell02
 end
 def coming_soon
 end
+  def sell_04
+    
+  end
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_product
